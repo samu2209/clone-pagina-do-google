@@ -1,0 +1,36 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+nav{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex ; 
+    list-style: none;
+    
+   
+}
+nav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(54, 54, 54)    ;
+    cursor: pointer;
+}
+nav li a:hover{
+    text-decoration: underline;
+    
+}

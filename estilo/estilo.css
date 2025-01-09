@@ -4,11 +4,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #3c4043;
 }
 a:hover{
     text-decoration: underline;
@@ -68,9 +69,34 @@ nav li a{
 .container-logo-google{
     width: 280px;
 }
+/* container principal - pesquisa  */
 
-/* container principal - logo  */
+.container-barra-pesquisa{
+    margin-top: 20px;
+    width: 600px;
+    height: 46px;
+    border-radius: 20px ;
+    border: 1px solid gray ;
+}
 
+/* container principal - botoes */
+
+.container-btn-complementares{
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    background-color: #f8f9fa;
+    padding: 10px;
+
+    border: 1px solid white;
+}
+button:hover{
+    border: 1px solid #dfe5eb;
+}
 
 
 /* footer */
@@ -78,8 +104,8 @@ nav li a{
 footer{
     position: absolute;
     bottom:0px ; 
-    border-top: 1px solid gray; padding: 10px;
-    background-color:#dadce0;
+    border-top: 1px solid rgb(188, 184, 184); padding: 10px;
+    background-color:#ebebeb;
     flex-wrap: wrap;
     width: 100%;
     display: flex;

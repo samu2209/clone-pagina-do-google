@@ -1,4 +1,4 @@
-
+/*  configurações gerais */
 
 *{
     margin: 0px;
@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+img{
+    width: 100%;
+}
+
+/* cabeçalho */
 header{
     width: 100%;
     padding: 10px;
@@ -21,7 +34,7 @@ nav{
 nav ul{
     display: flex ; 
     list-style: none;
-    
+    align-items: center;
    
 }
 nav li a{
@@ -30,7 +43,52 @@ nav li a{
     color: rgb(54, 54, 54)    ;
     cursor: pointer;
 }
-nav li a:hover{
-    text-decoration: underline;
-    
+.menu-apps{
+    width: 20px;
+}
+.menu-pessoal{
+    width: 35px;
+}
+
+/* container principal  */
+
+.container-principal{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* container principal - logo  */
+.container-logo-google  img{
+    width: 100%;
+}
+.container-logo-google{
+    width: 280px;
+}
+
+/* container principal - logo  */
+
+
+
+/* footer */
+
+footer{
+    position: absolute;
+    bottom:0px ; 
+    border-top: 1px solid gray; padding: 10px;
+    background-color:#dadce0;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style: none ;
+    padding: 10px;
 }

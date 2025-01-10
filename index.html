@@ -21,7 +21,7 @@
                 </abbr>
             </div>
             <div class="menu-pessoal">
-                <img src="imagens/pessoa-perfil-icone.png" width="30px"  alt="">
+                <img src="imagens/pessoa-perfil-icone.png" width="30px"  alt="menu conta">
             </div>
         </nav>
     </header>
@@ -30,16 +30,24 @@
 
         <section class="container-logo-google">
             <div class="logo-google">
-                <img src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="200px" alt="">
+                <img src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="200px" alt="logo do google">
             </div>
         </section>
 
         <section class="container-barra-pesquisa">
-            
+            <div class="icone-pesquisa">
+                <img src="imagens/lupa.png" alt="lupa de pesquisa">
+            </div>
+            <form action="https://google.com/search" method="GET">
+                <input type="text" name="q" id="input-pesquisa">
+            </form>
+            <div class="icone-pesquisa-audio">
+                <img src="imagens/voz-do-google.png" alt="botão de pesquisa por áudio">
+            </div>
         </section>
 
         <section class="container-btn-complementares">
-            <button>Pesquisa Google</button>
+            <button id="btn-pesquisa">Pesquisa Google</button>
             <button>Estou com sorte</button>
         </section>
 
@@ -63,6 +71,8 @@
         </footer>
     </section>
 
+
+    <script src="code/script.js"></script>
     
 </body>
 </html>

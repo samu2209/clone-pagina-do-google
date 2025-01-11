@@ -82,8 +82,13 @@ nav li a{
     padding: 0px 10px 0px 10px;
     justify-content: space-between;
     align-items: center;
-    border-radius: 30px;
-    border: 1px solid gray ;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.container-barra-pesquisa:hover {
+    box-shadow: 0 1px 6px rgba(60, 64, 67, 0.4);
+    border-color: #efeff2; 
 }
 
 .icone-pesquisa{
@@ -92,9 +97,9 @@ nav li a{
 }
 .icone-pesquisa-audio{
     width: 25px; 
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
+
 .container-barra-pesquisa form{
     width: 90%;
     height: 80%;
@@ -104,6 +109,7 @@ nav li a{
     height: 100%;
     border: none;
     outline: none;
+  
 }
 
 /* container principal - botoes */
@@ -117,8 +123,8 @@ nav li a{
 }
 button{
     background-color: #f8f9fa;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 13px;
+    border-radius: 5px;
     border: 1px solid white;
 }
 button:hover{
